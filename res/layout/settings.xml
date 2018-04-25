@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/LinearLayout1" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+    <TextView android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:id="@+id/diftext" android:text="@string/difficulty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+    <Spinner android:layout_alignParentLeft="true" android:layout_below="@+id/diftext" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/choosedif"
+    android:prompt="@string/difficulty">
+    </Spinner>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/mainmenu" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginBottom="46dp" android:text="@string/mainmenu"></Button>
+</RelativeLayout>

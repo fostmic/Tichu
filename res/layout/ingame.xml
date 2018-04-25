@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.foster.tichu.TichuView
+		android:id="@+id/tichuview"
+		android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+                />
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		>
+			<Button android:layout_width="wrap_content" android:text="@string/no" android:layout_height="wrap_content" android:id="@+id/gtno" android:layout_alignTop="@+id/gtyes" android:layout_alignRight="@+id/gametext" android:visibility="invisible"></Button>
+			<Button android:id="@+id/gtyes" android:layout_width="wrap_content" android:text="@string/yes" android:layout_height="wrap_content" android:visibility="invisible" android:layout_centerVertical="true" android:layout_alignLeft="@+id/gametext"></Button>
+			<Button android:visibility="invisible" android:text="@string/passcards" android:id="@+id/passcards" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/tichubtn" android:layout_alignLeft="@+id/bomb"></Button>
+			<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" android:layout_marginLeft="14dp" android:layout_marginBottom="14dp" android:id="@+id/tichubtn" android:text="@string/calltichu" android:visibility="invisible"></Button>
+			<ImageButton android:layout_height="wrap_content" android:id="@+id/bomb" android:src="@drawable/bomb" android:layout_width="wrap_content" android:layout_alignBottom="@+id/tichubtn" android:layout_alignParentRight="true" android:layout_marginRight="14dp" android:visibility="invisible"></ImageButton>
+			<TextView android:layout_height="wrap_content" android:id="@+id/gametext" android:text="@string/grandtichu" android:textColor="#ff8888ff" android:layout_width="wrap_content" android:gravity="center_horizontal" android:textSize="24sp" android:visibility="invisible" android:layout_above="@+id/gtno" android:layout_centerHorizontal="true" android:layout_marginBottom="17dp"></TextView>
+
+		
+	
+	
+	</RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Tichu!</string>
+    <string name="app_name">Tichu</string>
+    <string name="difficulty">difficulty:</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="play">play</string>
+    <string name="settings">settings</string>
+    <string name="grandtichu">Grand Tichu?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="p1gt">Player 1 calls Grand Tichu!!!</string>
+    <string name="p2gt">Player 2 calls Grand Tichu!!!</string>
+    <string name="p3gt">Player 3 calls Grand Tichu!!!</string>
+    <string name="p4gt">Player 4 calls Grand Tichu!!!</string>
+    <string name="p1tichu">Player 1 calls Tichu!!!</string>
+    <string name="p2tichu">Player 2 calls Tichu!!!</string>
+    <string name="p3tichu">Player 3 calls Tichu!!!</string>
+    <string name="p4tichu">Player 4 calls Tichu!!!</string>
+    <string name="calltichu">Tichu!</string>
+    <string name="passcards">Pass Cards</string>
+    <string name="selectcards">Select cards to pass</string>
+    <string-array name ="choosedif">
+    	<item>Easy</item>
+    	<item>Medium</item>
+    	<item>Hard</item>
+    </string-array>
+</resources>
